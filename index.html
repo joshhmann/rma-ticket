@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>RMA Form</title>
+</head>
+<header>
+    <h1>RMA Ticket Form</h1>
+</header>
+<body>
+<div class="dontPrint">
+<div class="form">
+    <form id="ticketForm">
+    <label for="ticketId">Support Ticket ID</label>
+    <input type="text" name="ticketId" id="ticketId" required>
+    <br>
+    <label for="hub">Hub</label>
+    <input type="text" name="hub" id="hub" required>
+    <br>
+    <label for="date">Date</label>
+    <input type="date" name="date" id="date" min="2020-01-01" required>
+    <br>
+    <label for="techName">Technician Name</label>
+    <input type="text" name="techName" id="techName" required>
+    <br>
+    <label for="partId">Part ID</label>
+    <input type="text" name="partId" id="partId" required>
+    <br>
+    <label for="description">Description</label>
+    <br>
+    <textarea name="description" id="description" cols="30" rows="10"></textarea>
+    <br>
+    <section class="submission">
+        <input id="btn" type="submit" value="submit">
+        <input id="btn2" type="submit" value="subfsadfmit">
+    </section>
+    </form>
+    
+</div>
+</div>
+<div class="printThis">
+<div id="createdTicket">
+    <table id="tg" border="1px">
+        <thead>
+            <tr>
+                <th colspan="2" class="th1"><img src="/img/Starship_logo_l.png" alt=""></th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tg-0pky">Support Ticket #</td>
+                <td id="ticketId1"></td>
+            </tr>
+            <tr>
+                <td class="tg-0pky">Hub:</td>
+                <td id="hub1"></td>
+            </tr>
+            <tr>
+                <td class="tg-0pky">Date:</td>
+                <td id="date1"></td>
+            </tr>
+            <tr>
+                <td class="tg-0pky">Technician Name:</td>
+                <td id="techName1"></td>
+            </tr>
+            <tr>
+                <td class="tg-0pky">Part Number:</td>
+                <td id="partId1"></td>
+            </tr>
+            <tr >
+                <td class="tg-0pky">Description:</td>
+                <td rowspan="3" id="description1"></td>
+            </tr>
+            
+        </tbody>
+    </table>
+</div>
+</div>
+
+<div id="msg">
+    <pre></pre>
+</div>
+
+
+    
+<script src="/js/script.js"></script>
+</body>
+</html>

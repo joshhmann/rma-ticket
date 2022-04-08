@@ -1,0 +1,41 @@
+.form {
+    
+}
+
+table {
+    table-layout: fixed;
+}
+
+td {
+    max-width: 150px;
+    word-wrap: break-word;
+}
+
+img {
+    width: 150px;
+    height: auto;
+}
+
+.printThis {
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}
+
+@media print {
+    table {
+        table-layout: fixed;
+    }
+    td {
+    max-width: 150px;
+    word-wrap: break-word;
+    }
+
+    img {
+    width: 150px;
+    height: auto;
+    }
+
+}
