@@ -1,5 +1,32 @@
-.form {
+
+
+header {
+    text-align: center;
+}
+.dontPrint {
+   margin: auto;
+  width: 50%;
+  border: 3px solid black;
+  padding: 10px;
+}
+
+.submission {
+    margin: auto;
+    width: 40%;
+    padding: 30px;
+}
+
+label {
     
+    float: left;
+    clear: left;
+    width: 200px;
+    text-align:right;
+}
+
+input {
+    
+    float: left;
 }
 
 table {
