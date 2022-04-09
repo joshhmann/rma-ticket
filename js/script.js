@@ -5,7 +5,6 @@
 
 document.addEventListener('DOMContentLoaded', ()=> {
     document.getElementById('btn').addEventListener('click', makeLabel);
-    document.getElementById('btn2').addEventListener('click', printLabel);
 });
 const makeLabel = (ev) => {
         ev.preventDefault();

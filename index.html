@@ -8,35 +8,38 @@
     <title>RMA Form</title>
 </head>
 <header>
+    <img src="/img/Starship_logo_l.png" alt="">
     <h1>RMA Ticket Form</h1>
 </header>
 <body>
 <div class="dontPrint">
 <div class="form">
     <form id="ticketForm">
-    <label for="ticketId">Support Ticket ID</label>
+    <label for="ticketId">Support Ticket ID:</label>
     <input type="text" name="ticketId" id="ticketId" required>
     <br>
-    <label for="hub">Hub</label>
+    <label for="hub">Hub:</label>
     <input type="text" name="hub" id="hub" required>
     <br>
-    <label for="date">Date</label>
+    <label for="date">Date:</label>
     <input type="date" name="date" id="date" min="2020-01-01" required>
     <br>
-    <label for="techName">Technician Name</label>
+    <label for="techName">Technician Name:</label>
     <input type="text" name="techName" id="techName" required>
     <br>
-    <label for="partId">Part ID</label>
+    <label for="partId">Part ID:</label>
     <input type="text" name="partId" id="partId" required>
     <br>
-    <label for="description">Description</label>
+    <label for="description">Description:</label>
     <br>
+    <div class="textbox">
     <textarea name="description" id="description" cols="30" rows="10"></textarea>
+    </div>
     <br>
-    <section class="submission">
-        <input id="btn" type="submit" value="submit">
-    </section>
     </form>
+        <div class="submission">
+            <input id="btn" type="submit" value="Create Label" >
+        </div>
     
 </div>
 </div>
