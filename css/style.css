@@ -129,3 +129,9 @@ img {
     width: 60%;
     }
 }
+
+@media screen and (min-width: 1300px) {
+    .dontPrint {
+    width: 30%;
+    }
+}
