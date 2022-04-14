@@ -1,8 +1,11 @@
 
+
 div {
     text-align: center;
 }
 body {
+    color: #040404;
+    background-color: #fff;
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
@@ -11,8 +14,12 @@ header {
 }
 .dontPrint {
     margin: auto;
-    width: 50%;
-    padding: 10px;
+    width: 40%;
+    
+    border-radius: 20px;
+    background-color: #F1F2F3
+
+
 }
 
 .submission {
@@ -21,27 +28,36 @@ header {
     padding: 10px;
     position: absolute;
     right: 70px;
-
-    
-    
 }
+
 
 label {
     
     float: left;
     clear: left;
-    width: 200px;
+    width: 150px;
     text-align:right;
+    margin: 5px;
+    
 }
 
+
 .textbox {
-    margin: 10px;
-    padding: auto;
+    text-align: left;
+    width: 100%;
+    
+}
+
+textarea {
+    border: none;
 }
 
 input {
     
     float: left;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
 }
 
 table {
@@ -49,6 +65,7 @@ table {
 }
 
 td {
+
     max-width: 150px;
     word-wrap: break-word;
 }
@@ -68,22 +85,21 @@ img {
 
 #btn {
 
-  background-color: #555555;/* Green */
+  background-color: #F1F2F3;
   border: none;
-  color: white;
+  color: #2B9CE0;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   transition-duration: 0.4s;
-  border: 2px solid black;
-  border-radius: 4px;
+  border-radius: 10px;
 
 }
 
 #btn:hover {
-    background-color: white;
+    background-color: F1F2F3;
     color: black;
 }
 
