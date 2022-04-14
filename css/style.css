@@ -15,7 +15,6 @@ header {
 .dontPrint {
     margin: auto;
     width: 40%;
-    
     border-radius: 20px;
     background-color: #F1F2F3
 
@@ -117,4 +116,16 @@ img {
     height: auto;
     }
 
+}
+
+@media screen and (min-width: 1015px) {
+    .dontPrint {
+    width: 40%;
+    }
+}
+
+@media screen and (min-width: 764px) and (max-width: 1010px) {
+    .dontPrint {
+    width: 60%;
+    }
 }
