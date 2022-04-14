@@ -5,6 +5,6 @@ its usually done by using a label maker, writing the ticket number down with mas
 a template that he prints out and writes the information by hand, so I thought I would take the next step to create a web version of it. I haven't done any testing yet
 if it can work with a label printer, but that is the next step :)
 
-![Image](https://i.imgur.com/6MfbjOI.png)
+![Image](https://imgur.com/a/rDl88HA)
 ![Image](https://i.imgur.com/rllsDQw.png)
 ![Image](https://i.imgur.com/jEDhZqU.png)
