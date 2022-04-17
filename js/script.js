@@ -13,13 +13,14 @@ const makeLabel = (ev) => {
         let techName = document.getElementById('techName').value;
         let partId = document.getElementById('partId').value;
         let description = document.getElementById('description').value;
-
+        let partBarcode = document.getElementById('barcode');
         //selecting our empty tds 
         let ticketId1 = document.getElementById('ticketId1');
         let hub1 = document.getElementById('hub1');
         let date1 = document.getElementById('date1');
         let techName1 = document.getElementById('techName1');
         let partId1 = document.getElementById('partId1');
+        
         let description1 = document.getElementById('description1');
 
         //we input the form data into the tds
@@ -27,7 +28,12 @@ const makeLabel = (ev) => {
         hub1.innerHTML = hub;
         date1.innerHTML = date;
         techName1.innerHTML = techName;
-        partId1.innerHTML = partId;
+        JsBarcode(partBarcode, partId, {
+            width: 3,
+            height: 25,
+            textPosition: "top",
+            fontSize: 16
+        });
         description1.innerHTML = description;
         document.forms[0].reset;
 
