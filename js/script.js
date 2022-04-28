@@ -29,9 +29,10 @@ const makeLabel = (ev) => {
         date1.innerHTML = date;
         techName1.innerHTML = techName;
         JsBarcode(partBarcode, partId, {
-            width: 3,
+            width: 1.5,
             height: 25,
             textPosition: "top",
+            
             fontSize: 16
         });
         description1.innerHTML = description;
@@ -40,7 +41,7 @@ const makeLabel = (ev) => {
     //once the form is submitted a window will appear with the label    
     let divContents = document.getElementById('createdTicket').innerHTML;
     let a = window.open('', '', 'height=500, width=500');
-    a.document.write('<html>');
+    a.document.write('<html><link rel="stylesheet" type="text/css" href="/css/style.css">');
     a.document.write(divContents);
     a.document.write('</body></html>');
     a.document.close();

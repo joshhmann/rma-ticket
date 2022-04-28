@@ -82,6 +82,9 @@ img {
     visibility: visible;
 }
 
+#barcode1 {
+    text-align: center;
+}
 
 #btn {
 
@@ -113,6 +116,7 @@ img {
     }
 
     img {
+    text-align: center;
     width: 150px;
     height: auto;
     }
