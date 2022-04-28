@@ -29,7 +29,7 @@ const makeLabel = (ev) => {
         date1.innerHTML = date;
         techName1.innerHTML = techName;
         JsBarcode(partBarcode, partId, {
-            width: 1.5,
+            width: 2,
             height: 25,
             textPosition: "top",
             
