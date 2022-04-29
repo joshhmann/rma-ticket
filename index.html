@@ -13,7 +13,9 @@
     <h1>TO Part Label Maker</h1>
 </header>
 <body>
+    
 <div class="dontPrint">
+    <a href="">Changelog</a>
 <div class="form">
     <form id="ticketForm">
     <label for="ticketId">Support Ticket ID:</label>
@@ -34,19 +36,18 @@
     <label for="description">Description:</label>
     <br>
     <div class="textbox">
-    <textarea name="description" id="description" cols="30" rows="10"></textarea>
+    <textarea name="description" id="description" cols="21" rows="5" maxlength="100" wrap="hard"></textarea>
     </div>
     <br>
     </form>
         <div class="submission">
             <input id="btn" type="submit" value="Create Label" >
         </div>
-    
 </div>
 </div>
 <div class="printThis">
 <div id="createdTicket">
-    <table id="tg" border="1px">
+    <table id="tg" >
         <thead>
             <tr>
                 <th colspan="2" class="th1"><img src="/img/Starship_logo_l.png" alt=""></th>
